@@ -1,3 +1,2 @@
-# projeto tcc
+# PROJETTO DE TCC
 
-# projeto criado utilizando vscode e github
