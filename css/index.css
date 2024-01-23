@@ -1,0 +1,97 @@
+*{box-sizing: border-box;}
+
+html,body{margin:0;
+          padding:0;}
+     
+.container-1{background:#dad8d0;
+             width:100vw;
+             height:10vh;
+             display:flex;
+             align-items:center;
+             justify-content:space-between;}
+             
+.container-1 div{display:inline-block;
+                 font-size:2.5em;
+                 font-weight:800;
+                 color:#92d953;}
+
+.container-1 .item-1{margin-right:12em;}             
+
+.container-1 .item-1 span{color:white;}
+
+.container-1 .item-5,
+.container-1 .item-6{font-size:1.5em;
+                     padding:10px 30px;
+                     background:black;
+                     border-radius:10%;}
+
+.container-2{width:100vw;
+             height:80vh;
+             display:flex;
+             align-items:center;
+             justify-content:center;}   
+             
+.container-2 .col-1,
+.container-2 .col-2{display:flex;
+                    flex-wrap:wrap;
+                    background:black;
+                    width:49%;
+                    height:100%;
+                    align-items:center;
+                    justify-content:center;}
+                    
+.container-2 .col-2{background:white;}
+
+.container-2 .item-1{width:80%;
+                     font-size:3.5em;
+                     font-weight:800;
+                     color:#92d953;}
+
+.container-2 .item-1 span{color:white;}
+
+.container-2 pre,
+.container-2 .item-2{color:white;
+                     font-size:2em;}
+
+.container-2 pre{width:100%;}
+
+.container-2 .col-2{justify-content:start;
+                    align-items:start;}
+
+.container-2 .col-2 .img-3{width:70%;
+                           height:70%;}     
+                           
+.fundoComprar{position:fixed;
+              width:100%;
+              height:100%;
+              top:0;
+              bottom:0;
+              right:0;
+              left:0;
+              background:rgba(0,0,0,0.5);
+              display:none;
+              transition:0.5s;
+              justify-content:center;
+              align-items:center;}
+              
+.fundoComprar input{background:white;
+                    border-radius:5px;
+                    font-size:2em;
+                    text-align:center;
+                    padding:10px;}
+                    
+.modeloMercado{background:white;
+               border:1px solid black;
+               padding:5px;}                    
+
+.container-3{display:flex;
+             background:white;
+             width:60vw;
+             height:25vh;
+             justify-content:space-around;
+             align-items:center;}
+
+.container-3 img{width:200px;
+                 height:150px;}
+                 
+.container-3 p{text-align:center;}                 
